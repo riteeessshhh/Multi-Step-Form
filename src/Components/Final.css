@@ -1,0 +1,191 @@
+.container {
+    width: 80vw;
+    margin-left: 10vw;
+    font-family: sans-serif;
+}
+.percentage-bar {
+    margin-top: 2vw;
+    width: 80vw;
+    height: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+.percentage-check {
+    width: 100%;
+    height: 0.5vw;
+    background-color: aquamarine;
+}
+.display {
+    margin-top: 5vw;
+    width: 100%;
+    display: flex;
+    gap: 5vw;
+}
+.picture img {
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+    margin-left: 10vw;
+}
+.writing {
+    width: 40vw;
+    padding: 2vw;
+}
+.stars {
+    display: flex;
+    gap: 0.5vw;
+}
+.stars img {
+    width: 2vw;
+}
+.writing h2 {
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.writing p {
+    font-size: 1.5vw;
+}
+.final-continue {
+    margin-top: 1vw;
+    margin-left: 33vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding: 1vw;
+    background-color: black;
+    color: white;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:500px) {
+    .container {
+        width: 95vw;
+        margin-left: 2.5vw;
+    }
+    .percentage-bar {
+       width: 95vw;
+       height: 2vw;
+       margin-top: 10vw;
+    }
+    .percentage-check {
+        width: 100%;
+        height: 2vw;
+    }
+    .display {
+        flex-direction: column;
+        margin-top: 10vw;
+        justify-content: center;
+    }
+    .picture {
+        width: 95vw;
+    }
+    .picture img {
+        width: 70vw;
+        height: 70vw;
+    }
+    .writing {
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    .stars img {
+        width: 5vw;
+    }
+    .writing h2 {
+        font-size: 5vw;
+    }
+    .writing p {
+        font-size: 3vw;
+    }
+    .final-continue {
+        font-size: 5vw;
+    }
+}
+
+
+@media only screen and (max-width:777px) {
+    .container {
+        width: 95vw;
+        margin-left: 2.5vw;
+    }
+    .percentage-bar {
+       width: 95vw;
+       height: 2vw;
+       margin-top: 10vw;
+    }
+    .percentage-check {
+        width: 100%;
+        height: 2vw;
+    }
+    .display {
+        flex-direction: column;
+        margin-top: 10vw;
+        justify-content: center;
+    }
+    .picture {
+        width: 95vw;
+    }
+    .picture img {
+        width: 70vw;
+        height: 70vw;
+    }
+    .writing {
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    .stars img {
+        width: 5vw;
+    }
+    .writing h2 {
+        font-size: 5vw;
+    }
+    .writing p {
+        font-size: 3vw;
+    }
+    .final-continue {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .container {
+        width: 95vw;
+        margin-left: 2.5vw;
+    }
+    .percentage-bar {
+       width: 95vw;
+       height: 2vw;
+       margin-top: 10vw;
+    }
+    .percentage-check {
+        width: 100%;
+        height: 2vw;
+    }
+    .display {
+        flex-direction: column;
+        margin-top: 10vw;
+        justify-content: center;
+    }
+    .picture {
+        width: 95vw;
+    }
+    .picture img {
+        width: 70vw;
+        height: 70vw;
+    }
+    .writing {
+        width: 70vw;
+        margin-left: 10vw;
+    }
+    .stars img {
+        width: 5vw;
+    }
+    .writing h2 {
+        font-size: 5vw;
+    }
+    .writing p {
+        font-size: 3vw;
+    }
+    .final-continue {
+        font-size: 5vw;
+    }
+}

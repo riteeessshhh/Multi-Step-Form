@@ -1,0 +1,236 @@
+.mains {
+    width: 80vw;
+    height: auto;
+    margin-left: 10vw;
+    margin-top: 2vw;
+    font-family: sans-serif;
+}
+.percentag {
+    width: 80vw;
+    height: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+.percentag-complete {
+    width: 80%;
+    height: 0.5vw;
+    background-color: aquamarine;
+}
+.optionn-label input[type="checkbox"] {
+    display: none; 
+  }
+.query {
+    width: 80vw;
+    text-align: center;
+    margin-top: 3vw;
+}
+.boxess {
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}
+.optionn-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10vw;
+    border: 1px solid rgb(187, 179, 179);
+    width: 15vw;
+    border-radius: 1vw;
+    
+}
+.selected {
+    border: 2px solid green;
+}
+.texts span {
+    color: grey;
+}
+.continue-btn {
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: 5vw;
+    margin-left: 35vw;
+    border-radius: 0.5vw;
+    background-color: rgb(230, 217, 217);
+    color: white;
+    padding: 1vw;
+
+}
+.continue-act {
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: 5vw;
+    margin-left: 35vw;
+    border-radius: 0.5vw;
+    background-color: black;
+    color: white;
+    padding: 1vw;
+    cursor: pointer;
+}
+
+@media only screen and (max-width : 500px) {
+    .mains {
+        width: 95vw;
+        margin-left: 2.5vw;
+    }
+    .percentag {
+        margin-top: 10vw;
+        width: 95vw;
+        height: 2vw;
+    }
+    .percentag-complete {
+        width: 80%;
+        height: 2vw;
+    }
+
+    .query {
+        width: 95vw;
+        text-align: center;
+        margin-top: 10vw;
+    }
+    .query h2 {
+        font-size: 5vw;
+    }
+    .query p {
+        font-size: 2.5vw;
+    }
+    .boxess {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vw;
+    }
+    .optionn-label {
+        height: 25vw;
+        width: 80vw;
+        justify-content: center;
+    }
+    .texts p {
+        font-size: 4vw;
+    }
+    .continue-act {
+        font-size: 5vw;
+        margin-left: 30vw;
+        margin-bottom: 5vw;
+    }
+    .continue-btn {
+        font-size: 5vw;
+        margin-left: 30vw;
+        margin-bottom: 5vw;
+    }   
+}
+
+
+@media only screen and (max-width : 777px) {
+    .mains {
+        width: 95vw;
+        margin-left: 2.5vw;
+    }
+    .percentag {
+        margin-top: 10vw;
+        width: 95vw;
+        height: 2vw;
+    }
+    .percentag-complete {
+        width: 80%;
+        height: 2vw;
+    }
+
+    .query {
+        width: 95vw;
+        text-align: center;
+        margin-top: 10vw;
+    }
+    .query p {
+        font-size: 2.5vw;
+    }
+    .query h2 {
+        font-size: 5vw;
+    }
+    .boxess {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vw;
+    }
+    .optionn-label {
+        height: 25vw;
+        width: 80vw;
+        justify-content: center;
+    }
+    .texts p {
+        font-size: 4vw;
+    }
+    .continue-act {
+        font-size: 5vw;
+        margin-left: 30vw;
+        margin-bottom: 5vw;
+    }
+    .continue-btn {
+        font-size: 5vw;
+        margin-left: 30vw;
+        margin-bottom: 5vw;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width : 1000px) {
+    .mains {
+        width: 95vw;
+        margin-left: 2.5vw;
+    }
+    .percentag {
+        margin-top: 10vw;
+        width: 95vw;
+        height: 2vw;
+    }
+    .percentag-complete {
+        width: 80%;
+        height: 2vw;
+    }
+
+    .query {
+        width: 95vw;
+        text-align: center;
+        margin-top: 10vw;
+    }
+    .query p {
+        font-size: 2.5vw;
+    }
+    .query h2 {
+        font-size: 5vw;
+    }
+    .boxess {
+        margin-top: 10vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5vw;
+    }
+    .optionn-label {
+        height: 25vw;
+        width: 80vw;
+        justify-content: center;
+    }
+    .texts p {
+        font-size: 4vw;
+    }
+    .continue-act {
+        font-size: 5vw;
+        margin-left: 30vw;
+        margin-bottom: 5vw;
+    }
+    .continue-btn {
+        font-size: 5vw;
+        margin-left: 30vw;
+        margin-bottom: 5vw;
+    }
+    
+    
+}

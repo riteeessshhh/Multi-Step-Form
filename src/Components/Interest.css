@@ -1,0 +1,319 @@
+.total {
+    width: 80vw;
+    height: auto;
+    margin-left: 10vw;
+    margin-top: 2vw;
+    font-family: sans-serif;
+    font-family: sans-serif;
+}
+.percent {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    height: 0.5vw;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+}
+.percent-complete {
+    width: 40%;
+    height: 0.5vw;
+    background-color: aquamarine;
+    
+}
+.prev-img img {
+    width: 1vw;
+}
+.prev-img {
+    border: none;
+    background-color: white;
+}
+
+
+form {
+    width: 75vw;
+    height: 70vh;
+    margin-top: 3vw;
+    
+}
+.option-label {
+    width: 40vw;
+    height: 3vw;
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid rgb(204, 192, 192);
+    margin-bottom: 1vw;
+    
+}
+.option-label img {
+    width: 2.5vw;
+    height: 2.5vw;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 1vw;
+}
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.head label {
+    font-size: 2.2vw;
+    font-weight: 500;
+}
+.head p {
+    color: gray;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vw;
+}
+.option-label input[type="checkbox"] {
+    display: none; 
+  }
+
+  .inactive-button {
+    margin-left: 45%;
+    margin-top: 1vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw; 
+    background-color: rgb(230, 217, 217);
+    font-weight: 700;
+    color: white;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .selected {
+    border: 2px solid green;
+  }
+
+  .active-button {
+    margin-left: 45%;
+    margin-top: 1vw;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1.5vw;
+    background-color:black;
+    font-weight: 700;
+    color: white;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  @media only screen and (max-width : 500px) {
+    .total {
+       width: 95vw;
+       margin-left: 2.5vw;
+    }
+    .percent {
+        margin-top: 10vw;
+        width: 95vw;
+        height: 2vw;
+    }
+    .percent-complete {
+        width: 40%;
+        height: 2vw;
+    }
+    .prev-img img {
+        width: 3vw;
+    }
+    form {
+        width: 95vw;
+        height: auto;
+        margin-top: 5vw;  
+    }
+    .options {
+        margin-top: 7vw;
+    }
+    .option-label {
+        width: 80vw;
+        height: 15vw;
+        gap: 3vw;
+        margin-bottom: 5vw;
+    }
+    .option-label img {
+        width: 12vw;
+        height: 12vw;
+        margin-left: 3vw;
+    }
+    .head {
+        text-align: center;
+    }
+    .head label {
+        font-size: 6vw;
+        margin-top: 5vw;
+    }
+    .head p {
+        font-size: 3vw;
+    }
+    .inactive-button {
+        width: 25vw;
+        height: 10vw;
+        font-size: 5vw;
+        margin-left: 25vw !important;
+        margin-top: 5vw;
+        padding: 1vw;
+        margin-bottom: 5vw;
+    }
+    .active-button {
+        width: 25vw;
+        height: 10vw;
+        font-size: 5vw;
+        margin-left: 25vw !important;
+        margin-top: 5vw;
+        padding: 1vw;
+        margin-bottom: 5vw;
+    }
+  }
+
+  @media only screen and (max-width : 777px) {
+    .total {
+       width: 95vw;
+       margin-left: 2.5vw;
+    }
+    .percent {
+        margin-top: 10vw;
+        width: 95vw;
+        height: 2vw;
+    }
+    .percent-complete {
+        width: 40%;
+        height: 2vw;
+    }
+    .prev-img img {
+        width: 3vw;
+    }
+    form {
+        width: 95vw;
+        height: auto;
+        margin-top: 5vw;  
+    }
+    .options {
+        margin-top: 7vw;
+    }
+    .option-label {
+        width: 80vw;
+        height: 15vw;
+        gap: 3vw;
+        margin-bottom: 5vw;
+    }
+    .option-label img {
+        width: 12vw;
+        height: 12vw;
+        margin-left: 3vw;
+    }
+    .head {
+        text-align: center;
+    }
+    .head label {
+        font-size: 6vw;
+        margin-top: 5vw;
+    }
+    .head p {
+        font-size: 3vw;
+    }
+    .inactive-button {
+        width: 25vw;
+        height: 10vw;
+        font-size: 5vw;
+        margin-left: 25vw !important;
+        margin-top: 5vw;
+        padding: 1vw;
+        margin-bottom: 5vw;
+    }
+    .active-button {
+        width: 25vw;
+        height: 10vw;
+        font-size: 5vw;
+        margin-left: 25vw !important;
+        margin-top: 5vw;
+        padding: 1vw;
+        margin-bottom: 5vw;
+    }
+  }
+
+  @media only screen and (max-width : 1000px) {
+    .total {
+       width: 95vw;
+       margin-left: 2.5vw;
+    }
+    .percent {
+        margin-top: 10vw;
+        width: 95vw;
+        height: 2vw;
+    }
+    .percent-complete {
+        width: 40%;
+        height: 2vw;
+    }
+    .prev-img img {
+        width: 3vw;
+    }
+    form {
+        width: 95vw;
+        height: auto;
+        margin-top: 5vw;  
+    }
+    .options {
+        margin-top: 7vw;
+    }
+    .option-label {
+        width: 80vw;
+        height: 15vw;
+        gap: 3vw;
+        margin-bottom: 5vw;
+    }
+    .option-label img {
+        width: 12vw;
+        height: 12vw;
+        margin-left: 3vw;
+    }
+    .head {
+        text-align: center;
+    }
+    .head label {
+        font-size: 6vw;
+        margin-top: 5vw;
+    }
+    .head p {
+        font-size: 3vw;
+    }
+    .inactive-button {
+        width: 25vw;
+        height: 10vw;
+        font-size: 5vw;
+        margin-left: 25vw !important;
+        margin-top: 5vw;
+        padding: 1vw;
+        margin-bottom: 5vw;
+    }
+    .active-button {
+        width: 25vw;
+        height: 10vw;
+        font-size: 5vw;
+        margin-left: 25vw !important;
+        margin-top: 5vw;
+        padding: 1vw;
+        margin-bottom: 5vw;
+    }
+    .option-label span {
+        font-size: 3vw;
+    }
+  }
+
+
+
+  
+  

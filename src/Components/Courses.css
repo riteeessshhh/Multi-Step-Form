@@ -1,0 +1,256 @@
+.mainload-div {
+    margin-top: 15vw;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+   
+  }
+  
+  .loading-div {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  .mainload-div span {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1vw;
+    
+  }
+  .final-output {
+    width: 60vw;
+    height: 30vw;
+    margin-left: 20vw;
+    margin-top: 7vw;
+    font-family: sans-serif;
+  }
+  .head-div {
+    text-align: center;
+  }
+  .head-div h2 {
+    font-size: 2vw;
+    font-weight: 600;
+  }
+  .head-div p {
+    color: grey;
+  }
+  .courses-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+  }
+  .first-course {
+    width: 25vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(197, 196, 196);
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .second-course {
+    width: 25vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(197, 196, 196);
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .first-course img {
+    width: 10vw;
+  }
+  .second-course img {
+    width: 10vw;
+  }
+  .course-text {
+    width: 50%;
+  }
+  .first-course:hover {
+    border: 3px solid green;
+  }
+  .second-course:hover {
+    border: 3px solid green;
+  }
+  .popular-div {
+    width: 8vw;
+    height: 1.5vw;
+    background-color: gold;
+    margin-left: 10vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    margin-top: 3vw;
+  }
+  .course-text span {
+    font-weight: 700;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .mainload-div{
+      margin-top: 50vw;
+    }
+    .mainload-div span {
+      margin-top: 7vw;
+      font-size: 5vw;
+      text-align: center;
+    }
+    .final-output {
+      width: 90vw;
+      margin-left: 5vw;
+      height: auto;
+      margin-top: 20vw;
+    }
+    .head-div h2 {
+      font-size: 5vw;
+    }
+    .head-div p {
+      font-size: 3vw;
+    }
+    .courses-div {
+      flex-direction: column;
+      gap: 10vw;
+    }
+    .first-course {
+      width: 80vw;
+      height: auto;
+      padding: 1vw;
+    }
+    .second-course {
+      width: 80vw;
+      height: auto;
+      padding: 1vw;
+    }
+    .first-course img {
+      width: 25vw;
+    }
+    .second-course img {
+      width: 25vw;
+    }
+    .popular-div {
+      width: 25vw;
+      height: auto;
+      margin-top: 10vw;
+    }
+  
+  }
+  
+  
+  @media only screen and (max-width: 777px) {
+    .mainload-div{
+      margin-top: 50vw;
+    }
+    .mainload-div span {
+      margin-top: 7vw;
+      font-size: 5vw;
+      text-align: center;
+    }
+    .final-output {
+      width: 90vw;
+      margin-left: 5vw;
+      height: auto;
+      margin-top: 20vw;
+    }
+    .head-div h2 {
+      font-size: 5vw;
+    }
+    .head-div p {
+      font-size: 3vw;
+    }
+    .courses-div {
+      flex-direction: column;
+      gap: 10vw;
+    }
+    .first-course {
+      width: 80vw;
+      height: auto;
+      padding: 1vw;
+    }
+    .second-course {
+      width: 80vw;
+      height: auto;
+      padding: 1vw;
+    }
+    .first-course img {
+      width: 25vw;
+    }
+    .second-course img {
+      width: 25vw;
+    }
+    .popular-div {
+      width: 25vw;
+      height: auto;
+      margin-top: 10vw;
+    }
+  
+  }
+
+  
+  @media only screen and (max-width: 1000px) {
+    .mainload-div{
+      margin-top: 50vw;
+    }
+    .mainload-div span {
+      margin-top: 7vw;
+      font-size: 5vw;
+      text-align: center;
+    }
+    .final-output {
+      width: 90vw;
+      margin-left: 5vw;
+      height: auto;
+      margin-top: 20vw;
+    }
+    .head-div h2 {
+      font-size: 5vw;
+    }
+    .head-div p {
+      font-size: 3vw;
+    }
+    .courses-div {
+      flex-direction: column;
+      gap: 10vw;
+    }
+    .first-course {
+      width: 80vw;
+      height: auto;
+      padding: 1vw;
+    }
+    .second-course {
+      width: 80vw;
+      height: auto;
+      padding: 1vw;
+      margin-bottom: 10vw;
+    }
+    .first-course img {
+      width: 25vw;
+    }
+    .second-course img {
+      width: 25vw;
+    }
+    .popular-div {
+      width: 25vw;
+      height: auto;
+      margin-top: 10vw;
+    }
+  
+  }
+  
+
+  
+  
+
+  
